@@ -26,12 +26,12 @@ Tailored for SA-MP, CR-MP, and open.mp server developers who need fast script bu
 ## Project Structure 📂
 
 ```text
-pawn_compiler_bot/
-├── config.py         # Path configurations and environment variables
-├── compiler.py       # Subprocess wrapper for pawncc and disasm
-├── handlers.py       # Command, document, and FSM handlers
-├── keyboards.py      # Inline keyboard layouts
-├── bot.py             # Entry point and async event loop
+source/
+├── config.py 
+├── compiler.py
+├── handlers.py
+├── keyboards.py   
+├── bot.py 
 └── requirements.txt
 ```
 
@@ -48,8 +48,8 @@ chmod +x /pawn-compiler/pawno/pawncc
 ### 2. Install Dependencies
 
 ```bash
-git clone https://github.com/your-username/pawn-compiler-bot.git
-cd pawn-compiler-bot
+git clone https://github.com/stackvoided/pawncc-telegram-bot
+cd pawncc-telegram-bot/source
 
 python3 -m venv venv
 source venv/bin/activate
